@@ -9,11 +9,32 @@ package com.prashant.Employee;
  */
 public class Employee {
 
-	/**
-	 * 
-	 */
-	public Employee() {
-		// TODO Auto-generated constructor stub
+	private String Name;
+	private int age;
+	
+	public Employee(){}
+	public Employee(String name , int age)
+	{
+		super();
+		this.setAge(age);
+		this.setName(name);
+		
 	}
+	
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+
+
 
 }
